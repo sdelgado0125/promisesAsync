@@ -20,7 +20,7 @@ async function drawTwoCards() {
         if (data.cards.length === 2) {
             let [card1, card2] = data.cards;
 
-            // Create image elements for cards
+            
             let cardImg1 = document.createElement("img");
             cardImg1.src = card1.image;
             cardImg1.alt = `${card1.value} of ${card1.suit}`;
