@@ -15,14 +15,14 @@
     position: absolute;
     width: 100%;
     height: auto;
-    transform: rotate(-5deg); /* Slight rotation for a natural overlapping look */
+    transform: rotate(-5deg);
     transition: transform 0.2s ease-in-out;
 }
 
 .pile img:nth-child(even) {
-    transform: rotate(5deg); /* Alternating slight rotations */
+    transform: rotate(5deg); 
 }
 
 .pile img:hover {
-    transform: scale(1.1); /* Slight zoom effect when hovering */
+    transform: scale(1.1); 
 }
